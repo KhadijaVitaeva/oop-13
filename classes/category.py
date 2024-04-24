@@ -1,6 +1,3 @@
-
-
-
 class Category:
     category_name: str
 
@@ -8,12 +5,11 @@ class Category:
 
     category_products: list
 
-    category_count = 0
+    category_count: int
 
-    product_count = 0
+    product_count: int
 
     def __init__(self, category_name, description_category, category_products):
-
         self.category_name = category_name
 
         self.description_category = description_category
@@ -25,13 +21,11 @@ class Category:
         Category.product_count += len(self.__category_products)
 
     def __repr__(self):
-
         return (f"Имя категории - {self.category_name}; "
 
                 f"Описание категории - {self.description_category}; Список продуктов - {self.__category_products}\n")
 
     def __len__(self):
-
         len_products = 0
 
         for i in self.__category_products:
@@ -40,6 +34,4 @@ class Category:
         return len_products
 
     def __str__(self):
-
         return f'{self.category_name},  количество продуктов: {self.__len__()} шт.\n'
-
