@@ -17,7 +17,7 @@ def name_category():
 
                             "name": "Samsung Galaxy C23 Ultra",
 
-                            "description": "256GB, 200MP камера",
+                            "description": "256GB, Серый цвет, 200MP камера",
 
                             "price": 180000.0,
 
@@ -29,7 +29,7 @@ def name_category():
 
                             "name": "Iphone 15",
 
-                            "description": "512GB",
+                            "description": "512GB, Gray space",
 
                             "price": 210000.0,
 
@@ -41,7 +41,7 @@ def name_category():
 
                             "name": "Xiaomi Redmi Note 11",
 
-                            "description": "1024GB",
+                            "description": "1024GB, Синий",
 
                             "price": 31000.0,
 
@@ -73,7 +73,7 @@ def test_init_category(name_category):
 
             "name": "Samsung Galaxy C23 Ultra",
 
-            "description": "256GB, 200MP камера",
+            "description": "256GB, Серый цвет, 200MP камера",
 
             "price": 180000.0,
 
@@ -85,7 +85,7 @@ def test_init_category(name_category):
 
             "name": "Iphone 15",
 
-            "description": "512GB",
+            "description": "512GB, Gray space",
 
             "price": 210000.0,
 
@@ -97,7 +97,7 @@ def test_init_category(name_category):
 
             "name": "Xiaomi Redmi Note 11",
 
-            "description": "1024GB",
+            "description": "1024GB, Синий",
 
             "price": 31000.0,
 
