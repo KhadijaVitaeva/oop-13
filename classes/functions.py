@@ -1,4 +1,3 @@
-
 import json
 
 
@@ -80,23 +79,3 @@ def get_quantity(product_list):
     """
     quantity_in_stock = product_list["products"][0]['quantity']
     return quantity_in_stock
-#
-#
-# products=load_product_list()
-# for product_list in products:
-#     category_name=get_name_category(product_list)
-#     description_category = get_category_description(product_list)
-#     category_products = get_category_products(product_list)
-#     products_name = get_products_name(product_list)
-#     products_description = get_products_description(product_list)
-#     price = get_products_price(product_list)
-#     quantity_in_stock = get_quantity(product_list)
-#
-# print(category_name)
-# print(description_category)
-# print(products_name)
-# print(products_description)
-# print(price)
-# print(quantity_in_stock)
-# print(category_products)
-#
