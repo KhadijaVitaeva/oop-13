@@ -11,6 +11,7 @@ class Category:
         self.category_name = category_name
         self.description_category = description_category
         self.__category_products = category_products
+
         Category.category_count += 1
         Category.product_count += len(self.__category_products)
 
@@ -19,7 +20,9 @@ class Category:
                 f"Описание категории - {self.description_category}; Список продуктов - {self.__category_products}\n")
 
     def __len__(self):
+
         len_products = 0
+
         for i in self.__category_products:
             len_products += i.quantity_in_stock
         return len_products
